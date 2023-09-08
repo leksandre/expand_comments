@@ -9,6 +9,15 @@ var aTags;
 var found;
 (async function () {
   for (let i2 = 0; i2 < 9999; i2++) {
+
+
+  aTags2 = document.getElementsByClassName("comment__more");
+    for (var i = 0; i < aTags2.length; i++) {
+	    await aTags2[i].click();
+	  }
+
+    
+    
     let choose1 = choose([
       "comment-hidden-group__toggle",
       // "comment__more",
